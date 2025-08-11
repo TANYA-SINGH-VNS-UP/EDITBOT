@@ -1,1 +1,1 @@
-worker: python main.py
+worker: python Aashik-Edit/main.py
