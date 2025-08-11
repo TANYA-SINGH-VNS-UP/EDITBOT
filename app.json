@@ -1,16 +1,50 @@
 {
-  "name":  "Telegram edit message delete bot",
-  "description": "Telegram bot example using python-telegram-bot",
-  "repository": "https://github.com/AMANTYA1/EditGuardianBot",
+  "name": "Telegram Edit Guardian Bot",
+  "description": "Telegram bot to delete edited messages and maintain group transparency.",
+  "repository": "https://github.com/Aashik-team/EDITGUARDIAN",
   "keywords": ["telegram", "bot", "python"],
   "env": {
+    "API_ID": {
+      "description": "Your Telegram API ID from https://my.telegram.org",
+      "required": true
+    },
+    "API_HASH": {
+      "description": "Your Telegram API Hash from https://my.telegram.org",
+      "required": true
+    },
     "TELEGRAM_TOKEN": {
-      "description": "Telegram bot token gen from @BotFather",
+      "description": "Telegram bot token from @BotFather",
       "required": true
     },
     "OWNER_ID": {
       "description": "Your Telegram user ID (owner)",
       "required": true
+    },
+    "SUDO_ID": {
+      "description": "Space-separated list of sudo user IDs",
+      "required": false
+    },
+    "MONGO_URI": {
+      "description": "Your MongoDB connection URI",
+      "required": true
+    },
+    "DB_NAME": {
+      "description": "MongoDB database name",
+      "required": true
+    },
+    "LOGGER": {
+      "description": "Enable or disable logging (True/False)",
+      "value": "True",
+      "required": false
+    },
+    "BOT_NAME": {
+      "description": "Your bot's display name",
+      "value": "Edit Guardian",
+      "required": false
+    },
+    "SUPPORT_ID": {
+      "description": "Telegram group/channel ID for support",
+      "required": false
     }
   },
   "addons": [],
