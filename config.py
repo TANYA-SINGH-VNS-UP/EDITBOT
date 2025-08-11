@@ -1,21 +1,12 @@
-API_ID = "4014305"
+import os
 
-API_HASH = "b0cb9e17b2b8bcde3be7161c8bfa6013"
-
-# Telegram bot token
-TELEGRAM_TOKEN = "7917878224:AAE9OJDudn21vny_sbEQhM8WpuZ4Vqwc4bU"
-
-# Your telegram user ID (owner)
-OWNER_ID = 8056154987
-
-SUDO_ID = [7163382841]
-
-MONGO_URI = "mongodb+srv://shivang:shiv@cluster0.2bupd.mongodb.net/?retryWrites=true&w=majority"
-
-DB_NAME = "x"
-
-LOGGER = True
-
-BOT_NAME = "Edit Guardian"
-
-SUPPORT_ID = (-1002354552656)
+API_ID = os.environ.get("API_ID")
+API_HASH = os.environ.get("API_HASH")
+TELEGRAM_TOKEN = os.environ.get("TELEGRAM_TOKEN")
+OWNER_ID = int(os.environ.get("OWNER_ID"))
+SUDO_ID = list(map(int, os.environ.get("SUDO_ID", "").split()))
+MONGO_URI = os.environ.get("MONGO_URI")
+DB_NAME = os.environ.get("DB_NAME")
+LOGGER = os.environ.get("LOGGER", "True") == "True"
+BOT_NAME = os.environ.get("BOT_NAME", "Edit Guardian")
+SUPPORT_ID = int(os.environ.get("SUPPORT_ID"))
