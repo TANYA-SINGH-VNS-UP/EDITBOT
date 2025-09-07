@@ -19,7 +19,7 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text="𝗦𝘂𝗽𝗽𝗼𝗿𝘁", url=f"https://t.me/riteshcoder"),
+        InlineKeyboardButton(text="𝗦𝘂𝗽𝗽𝗼𝗿𝘁", url=f"https://t.me/heroku_club"),
     ],    
     [
         InlineKeyboardButton(text="𝗢𝘄𝗻𝗲𝗿", url=f"https://t.me/VNI0X"),
