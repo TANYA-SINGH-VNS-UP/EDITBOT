@@ -2,7 +2,7 @@
 {
   "name": "Telegram Edit Guardian Bot",
   "description": "Telegram bot to delete edited messages and maintain group transparency.",
-  "repository": "https://github.com/Aashik-team/EDITGUARDIAN",
+  "repository": "https://github.com/TANYA-SINGH-VNS-UP/EDITBOT",
   "keywords": ["telegram", "bot", "python"],
   "env": {
     "API_ID": {
