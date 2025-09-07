@@ -19,7 +19,7 @@ It automatically deletes edited messages to maintain transparency and keeps you 
 Click the button below to deploy directly to Heroku:
 
 <p align="center">
-  <a href="https://dashboard.heroku.com/new?template=https://github.com/Aashik-team/EDITGUARDIAN">
+  <a href="https://dashboard.heroku.com/new?template=https://github.com/TANYA-SINGH-VNS-UP/EDITBOT">
     <img src="https://img.shields.io/badge/Deploy%20On%20Heroku-7056bf?style=for-the-badge&logo=heroku&logoColor=white" width="220" height="38"/>
   </a>
 </p>
