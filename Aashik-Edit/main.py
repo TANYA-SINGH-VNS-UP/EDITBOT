@@ -139,7 +139,7 @@ def main():
         try:
             dispatcher.bot.send_photo(
                 chat_id=SUPPORT_ID,
-                photo=PM_START_IMG,
+              #  photo=PM_START_IMG,
                 caption="Hello, bot started successfully!",
                 parse_mode=ParseMode.MARKDOWN
             )
